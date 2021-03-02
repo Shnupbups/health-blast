@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "healthblast",
+  "version": "${version}",
+
+  "name": "Health Blast",
+  "description": "Makes Creeper's explosion power depend on their health.",
+  "authors": [
+    "Shnupbups"
+  ],
+
+  "license": "LGPLv3",
+  "icon": "assets/healthblast/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+  },
+  "mixins": ["healthblast.mixins.json"],
+
+  "depends": {
+    "fabricloader": ">=0.6.1",
+    "fabric": "*"
+  }
+}
