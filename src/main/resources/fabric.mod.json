@@ -10,7 +10,7 @@
   ],
 
   "license": "LGPLv3",
-  "icon": "assets/healthblast/icon.png",
+  "icon": "assets/healthblast/healthblast.png",
 
   "environment": "*",
   "entrypoints": {
