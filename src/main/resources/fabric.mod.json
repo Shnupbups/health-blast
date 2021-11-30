@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Health Blast",
-  "description": "Makes Creeper's explosion power depend on their health.",
+  "description": "Makes Creepers' explosion power depend on their health.",
   "authors": [
     "Shnupbups"
   ],
@@ -18,7 +18,6 @@
   "mixins": ["healthblast.mixins.json"],
 
   "depends": {
-    "fabricloader": ">=0.6.1",
-    "fabric": "*"
+    "fabricloader": ">=0.6.1"
   }
 }
