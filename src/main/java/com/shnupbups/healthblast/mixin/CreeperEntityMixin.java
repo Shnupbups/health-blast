@@ -9,6 +9,8 @@ import net.minecraft.entity.mob.CreeperEntity;
 import net.minecraft.entity.mob.HostileEntity;
 import net.minecraft.world.World;
 
+import com.shnupbups.healthblast.HealthBlast;
+
 @Mixin(CreeperEntity.class)
 public abstract class CreeperEntityMixin extends HostileEntity {
 	private CreeperEntityMixin(EntityType<? extends HostileEntity> entityType, World world) {

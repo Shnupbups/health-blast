@@ -1,4 +1,4 @@
-package com.shnupbups.healthblast.mixin;
+package com.shnupbups.healthblast;
 
 public class HealthBlast {
 	public static final float DEFAULT_CREEPER_HEALTH = 20f;
